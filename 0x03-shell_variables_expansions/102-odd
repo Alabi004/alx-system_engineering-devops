@@ -1,2 +1,2 @@
 #!/bin/bash
-paste-- | cut -fl
+perl -line 'print if $.%2 == 1'
